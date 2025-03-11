@@ -13,7 +13,7 @@ typedef unsigned long long ull;
 
 double mediana(vector<double>&elements,ll n){
     if(n%2 == 0){
-        ll e1 = (n-1) / 2;
+        ll e1 = (n / 2) - 1;
         ll e2 = e1 + 1;
 
         return (elements[e1] + elements[e2]) / 2;
